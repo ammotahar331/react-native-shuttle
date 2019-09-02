@@ -2,7 +2,7 @@ import React from 'react';
 import AppNavigator from './AppNavigator';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import friendReducer from './reducers/FriendReducer';
+import friendReducer from './reducers/index';
 
 const store = createStore(friendReducer);
 
