@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { addFriend } from '../actions/index';
+import { addFriend } from '../redux/actions';
 
 class Friends extends React.Component {
   render() {

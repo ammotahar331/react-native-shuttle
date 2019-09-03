@@ -5,3 +5,5 @@ react native starter kit with :
 - react-native-gesture-handler
 - react-redux
 - redux
+- redux-thunk
+- redux-logger

@@ -1,15 +1,12 @@
 import React from 'react';
 import AppNavigator from './AppNavigator';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import friendReducer from './reducers/index';
-
-const store = createStore(friendReducer);
+import configStore from './redux/store/store';
 
 export default class App extends React.Component {
   render() {
     return (
-      <Provider store={ store }>
+      <Provider store={ configStore() }>
         <AppNavigator />
       </Provider>
     );
